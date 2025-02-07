@@ -59,6 +59,7 @@ trainer.train()
 The integration effort with SGLang involves creating adapters and configuration toggles that allow users to select SGLang as an alternative backend without disrupting the current workflow shown as the picture below:
 
 ![Integration Flow](/Integration%20Flow.png)
+
 cr. Xuting Zhou
 
 # Integration Tutorial (In Progress)
