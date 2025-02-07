@@ -25,7 +25,7 @@ The purpose of this integration is to introduce **SGLang** as a new inference ba
 
 The [Open-R1 Repo](https://github.com/huggingface/open-r1) is built around a modular pipeline that consists of three main steps:
 
-![Open-R1 Flow](/SGLang%20Project%20Integration/plan-of-attack.png)
+![Open-R1 Flow](/plan-of-attack.png)
 
 - **Training:**
   The `grpo.py` script employs the `GRPOTrainer` module from the [TRL repository](https://github.com/huggingface/trl) which currently uses vLLM for fast inference.
@@ -58,7 +58,7 @@ trainer.train()
 
 The integration effort with SGLang involves creating adapters and configuration toggles that allow users to select SGLang as an alternative backend without disrupting the current workflow shown as the picture below:
 
-![Integration Flow](/SGLang%20Project%20Integration/Integration%20Flow.png)
+![Integration Flow](/Integration%20Flow.png)
 cr. Xuting Zhou
 
 # Integration Tutorial (In Progress)
